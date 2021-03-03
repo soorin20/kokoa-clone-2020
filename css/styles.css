@@ -8,9 +8,36 @@ body{
 }
 
 .welcome-header{
-    margin-top: 150px;
+    margin: 95px 0px;
     text-align:center;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
 }
 .welcome-header_title{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 600;
 }
+.welcome-header_text{
+    width:60%;
+    opacity:0.7;
+    line-height:150%;
+}
+
+#login-form{
+    display:flex;
+    flex-direction:column;
+    margin: 0px 30px;
+}
+#login-form input{
+    border: none;
+    padding: 20px 0px;
+    font-size:16px;
+    margin-bottom: 23px;
+    border-bottom: 1px solid rgba(0,0,0,0.3)
+}
+#login-form input::placeholder{
+    color: rgba(0,0,0,0.4)
+}
+
