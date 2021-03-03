@@ -6,3 +6,11 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+.welcome-header{
+    margin-top: 150px;
+    text-align:center;
+}
+.welcome-header_title{
+    margin-bottom: 50px;
+}
