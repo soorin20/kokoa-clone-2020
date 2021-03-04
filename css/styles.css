@@ -9,7 +9,7 @@ body{
 }
 
 .welcome-header{
-    margin: 95px 0px;
+    margin:95px 0px;
     text-align:center;
     display: flex;
     flex-direction:column;
@@ -51,11 +51,17 @@ body{
     border-color: var(--yellow);
 }
 
-#longin-link{
-    display:flex;
-    flex-direction:column;
-    text-align: center;
-    margin-top:40px;
+
+#login-form input[type="submit"]{
+    background-color:var(--yellow);
+    cursor:pointer;
+    padding: 20px 0px;
+    border-radius: 7px;
+}
+#login-form a{
+    text-align:center;
+    color:inherit;
+    font-size:15px;
 }
 
 
