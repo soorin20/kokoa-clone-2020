@@ -1,0 +1,18 @@
+.nav{
+    background-color:rgb(98%, 98%, 98%);
+    padding:20px 40px;
+    box-sizing:border-box;
+    border-top:1px solid rgb(91%, 91%, 91%);
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+    
+.nav_list{
+    display:flex;
+    justify-content:space-around;
+   
+}
+.nav_link{
+    color: rgb(18%, 21%, 24%);
+}
