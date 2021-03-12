@@ -15,4 +15,21 @@
 }
 .nav_link{
     color: rgb(18%, 21%, 24%);
+    position:relative;
+}
+
+.nav_notification{
+    background-color:rgb(100%, 38%, 16%) ;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color:white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    left: 22px;
+    bottom: 18px;
+
 }
