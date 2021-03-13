@@ -1,0 +1,13 @@
+#firends-display-link{
+    text-align: center;
+    display:block;
+    background-color: rgb(98%, 98%, 98%);
+    padding:15px 0px;
+    font-size:18px;
+    font-weight: 600;
+}
+#firends-display-link i {
+    color: rgb(84%, 84%, 84%);
+    border-right: 15px;
+    border-left: 25px;
+}
