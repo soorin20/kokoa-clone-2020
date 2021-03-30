@@ -3,12 +3,15 @@
     display:flex;
     align-items:center;
 }
+.user-component{
+    justify-content: space-between;
+}
 .user-component_avater{
     width: 70px;
     height:70px;
     border-radius: 30px;
     margin-right: 20px;
-    border: 1px  solid rgba(0,0,0,0.3); 
+    
 }
 .user-component_title{
     font-weight: 600;
@@ -22,4 +25,19 @@
 .user-component_avater-xl{
     width: 80px;
     height:80px;
+}
+.user-component_avater-sm{
+    width: 60px;
+    height:60px;
+    border-radius: 25px;
+}
+
+.user-component_title--not-bold{
+    font-size: 18px;
+    font-weight:600;
+}
+
+
+.user-component_column:last-child{
+    color:rgba(0,0,0,0.5)
 }
