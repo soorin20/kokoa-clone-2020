@@ -5,6 +5,7 @@
 }
 .user-component{
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 .user-component_avater{
     width: 70px;
