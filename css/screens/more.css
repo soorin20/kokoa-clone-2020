@@ -9,3 +9,21 @@
 }
 .more-suggestions__title{
     margin-bottom:30px;
+    font-weight: 600;
+    color:rgba(0,0,0,0.8)
+}
+.more-suggestions__icons{
+    display:flex;
+    justify-content: space-between;
+}
+.more-suggestions__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.more-suggestions__icon-image i {
+    margin-bottom: 18px;
+}
+.more-suggestions__icon-text {
+    color: var(--gray);
+}
