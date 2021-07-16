@@ -51,6 +51,9 @@
     display:flex;
     justify-content:space-between;
     align-items: center;
+    padding: 15px 0px;
+    border-bottom: 0.8px solid rgba(0, 0, 0, 0.1);
+    
 }
 .open-post__title{
     font-weight:600;
